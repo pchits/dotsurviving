@@ -1,0 +1,126 @@
+
+body {
+    background: rgb(35,35,35);
+    color: #ccc;
+    margin: 50px;
+}
+
+#sidebar {
+    margin-left: 50px;
+    display: inline-block;
+    min-width: 500px;
+    height: 450px;
+}
+
+#sidebar .sidebar-header {
+    background: rgb(112, 112, 112);
+    min-height: 50px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-content {
+    height: 355px;
+    background: #ccc;
+    overflow-y: scroll;
+}
+
+.log-line.status {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.log-line {
+    line-height: 14px;
+    color: #000;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#content-wrapper {
+    float: left;
+}
+
+button {
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+}
+
+#go-hunt {
+    background-color: #44c767;
+}
+
+#go-learn {
+    background-color: #4463c7;
+}
+
+#go-generate {
+    background-color: #c7ba44;
+}
+
+button#go-hunt:hover,
+button#go-learn:hover,
+button#go-generate:hover {
+	background-color: #bf2a68;
+}
+
+/* #go-hunt:active {
+	position:relative;
+	top:1px;
+} */
+
+table.positions {
+    
+}
+
+.animal {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+#hunter {
+    background: red;
+}
+
+#prey {
+    background: green;
+}
+
+table.positions {
+    
+}
+
+table.positions tr.row {
+
+}
+
+table.positions tr.row td.cell {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hunter-was-there {
+    background: rgba(255, 0, 0, 0.35);
+}
+
+.prey-was-there {
+    background: rgba(0, 128, 0, 0.35);
+}
